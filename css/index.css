@@ -180,4 +180,43 @@ hr {
       font-size: 14px;
       color: #83a7a5; }
 
+/* Perfect template */
+.perfect-template {
+  background-color: #eef1ec;
+  padding-top: 1px;
+  height: 665px; }
+  .perfect-template .perfect-template-header {
+    margin-top: 55px; }
+  .perfect-template .perfect-template-items {
+    width: 100%;
+    max-width: 1000px;
+    margin: 25px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .perfect-template .perfect-template-items .perfect-template-item {
+      margin-right: 90px; }
+      .perfect-template .perfect-template-items .perfect-template-item .perfect-template-title {
+        font-family: 'Roboto Light';
+        font-size: 32px;
+        color: #0f5f5c; }
+      .perfect-template .perfect-template-items .perfect-template-item .perfect-template-text {
+        margin: 15px 0 20px;
+        font-family: 'Roboto regular';
+        font-size: 14px;
+        line-height: 22px;
+        color: #a4bcba; }
+      .perfect-template .perfect-template-items .perfect-template-item .equipment {
+        font-family: 'Roboto regular';
+        font-size: 14px;
+        color: #a4bcba; }
+        .perfect-template .perfect-template-items .perfect-template-item .equipment .equipment-item {
+          display: flex;
+          align-items: center;
+          height: 26px; }
+          .perfect-template .perfect-template-items .perfect-template-item .equipment .equipment-item .perfect-template-icon {
+            margin-right: 10px; }
+    .perfect-template .perfect-template-items .perfect-template-item:last-child {
+      margin-right: 0; }
+
 /*# sourceMappingURL=index.css.map */
