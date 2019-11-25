@@ -245,4 +245,22 @@ hr {
       font-size: 14px;
       color: #83a7a5; }
 
+/* About */
+.about {
+  background: url("../images/home/about/about-background.jpg") center, no-repeat;
+  background-size: cover;
+  height: 505px;
+  padding: 175px 0; }
+  .about .about-item {
+    width: 500px; }
+    .about .about-item .about-title {
+      font-family: 'Roboto Light';
+      font-size: 32px;
+      color: #0f5f5c; }
+    .about .about-item .about-text {
+      font-family: 'Roboto Regular';
+      font-size: 14px;
+      line-height: 24px;
+      color: #83a7a5; }
+
 /*# sourceMappingURL=index.css.map */
