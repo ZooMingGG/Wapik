@@ -258,6 +258,7 @@ hr {
       font-size: 32px;
       color: #0f5f5c; }
     .about .about-item .about-text {
+      margin-top: 15px;
       font-family: 'Roboto Regular';
       font-size: 14px;
       line-height: 24px;
