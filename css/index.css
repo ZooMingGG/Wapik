@@ -367,4 +367,35 @@ hr {
       font-size: 14px;
       color: #597e7f; }
 
+/* Support */
+.support-content {
+  padding: 55px 0 95px; }
+  .support-content .section-headerr {
+    text-align: center; }
+    .support-content .section-headerr .section-header__img {
+      margin-bottom: 5px; }
+    .support-content .section-headerr .section-header__title {
+      font-family: 'Roboto Light';
+      font-size: 32px;
+      color: #6fb048; }
+    .support-content .section-headerr .section-header__hr {
+      margin: 20px auto 0;
+      border: none;
+      width: 65px;
+      height: 1px;
+      background-color: #6fb048; }
+    .support-content .section-headerr .section-header__text {
+      font-family: 'Roboto Regular';
+      margin-top: 19px;
+      font-size: 15px;
+      color: #83a7a5; }
+  .support-content .support-email {
+    text-align: center;
+    margin-top: 37px; }
+    .support-content .support-email .support-email__link {
+      text-decoration: none;
+      color: #0f5f5c;
+      font-family: 'Roboto Regular';
+      font-size: 18px; }
+
 /*# sourceMappingURL=index.css.map */
