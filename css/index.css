@@ -250,15 +250,14 @@ hr {
 .about {
   background: url("../images/home/about/about-background.jpg") center, no-repeat;
   background-size: cover;
-  height: 505px;
-  padding: 175px 0; }
-  .about .about-item {
-    width: 500px; }
-    .about .about-item .about-title {
+  padding: 175px 0 175px; }
+  .about .about-info {
+    width: 47.5%; }
+    .about .about-info .about-info__title {
       font-family: 'Roboto Light';
       font-size: 32px;
       color: #0f5f5c; }
-    .about .about-item .about-text {
+    .about .about-info .about-info__text {
       margin-top: 15px;
       font-family: 'Roboto Regular';
       font-size: 14px;
@@ -285,57 +284,59 @@ hr {
       font-family: 'Roboto Regular';
       font-size: 15px;
       color: #83a7a5; }
-  .pricing-content .column-item-wrap {
-    display: flex;
-    justify-content: center;
+  .pricing-content .prices-wrap {
     margin-top: 40px; }
-    .pricing-content .column-item-wrap .pricing-block {
-      border: 1px #c1d3d2 solid;
-      height: 358px;
-      width: 253px; }
-      .pricing-content .column-item-wrap .pricing-block .pricing-block__title {
-        margin: 25px 0 10px;
-        font-family: 'Roboto Medium';
-        text-transform: uppercase;
-        font-size: 15px;
-        color: #6fb048; }
-      .pricing-content .column-item-wrap .pricing-block .pricing-block__price {
-        margin-bottom: 15px; }
-        .pricing-content .column-item-wrap .pricing-block .pricing-block__price .pricing-block__value {
-          font-family: 'Montserrat Regular';
-          color: #0f5f5c;
-          font-size: 65px;
-          line-height: 65px;
-          font-weight: 900; }
-        .pricing-content .column-item-wrap .pricing-block .pricing-block__price .pricing-block__month {
+    .pricing-content .prices-wrap .prices {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px; }
+      .pricing-content .prices-wrap .prices .pricing-block {
+        border: 1px #c1d3d2 solid;
+        height: 358px;
+        width: 253px; }
+        .pricing-content .prices-wrap .prices .pricing-block .pricing-block__title {
+          margin: 25px 0 10px;
+          font-family: 'Roboto Medium';
+          text-transform: uppercase;
+          font-size: 15px;
+          color: #6fb048; }
+        .pricing-content .prices-wrap .prices .pricing-block .pricing-block__price {
+          margin-bottom: 15px; }
+          .pricing-content .prices-wrap .prices .pricing-block .pricing-block__price .pricing-block__value {
+            font-family: 'Montserrat Regular';
+            color: #0f5f5c;
+            font-size: 65px;
+            line-height: 65px;
+            font-weight: 900; }
+          .pricing-content .prices-wrap .prices .pricing-block .pricing-block__price .pricing-block__month {
+            font-family: 'Roboto Regular';
+            font-size: 14px;
+            color: #0f5f5c;
+            font-weight: 700; }
+        .pricing-content .prices-wrap .prices .pricing-block .pricing-block__text {
           font-family: 'Roboto Regular';
           font-size: 14px;
-          color: #0f5f5c;
-          font-weight: 700; }
-      .pricing-content .column-item-wrap .pricing-block .pricing-block__text {
-        font-family: 'Roboto Regular';
-        font-size: 14px;
-        line-height: 28px;
-        color: #597e7f; }
-      .pricing-content .column-item-wrap .pricing-block .pricing-block__btn {
-        display: inline-block;
-        text-decoration: none;
-        margin-top: 25px;
-        width: 140px;
-        height: 42px;
-        background-color: #6fb048;
-        color: #ffffff;
-        text-transform: uppercase;
-        font-family: 'Montserrat Regular';
-        font-size: 13px;
-        line-height: 42px;
-        border-radius: 2px;
-        transition: background-color 0.2s linear; }
-        .pricing-content .column-item-wrap .pricing-block .pricing-block__btn:hover {
-          background-color: #58a728; }
-    .pricing-content .column-item-wrap .pricing-block-2 {
-      border-right: none;
-      border-left: none; }
+          line-height: 28px;
+          color: #597e7f; }
+        .pricing-content .prices-wrap .prices .pricing-block .pricing-block__btn {
+          display: inline-block;
+          text-decoration: none;
+          margin-top: 25px;
+          width: 140px;
+          height: 42px;
+          background-color: #83a7a5;
+          color: #ffffff;
+          text-transform: uppercase;
+          font-family: 'Montserrat Regular';
+          font-size: 13px;
+          line-height: 42px;
+          border-radius: 2px;
+          transition: background-color 0.2s linear; }
+          .pricing-content .prices-wrap .prices .pricing-block .pricing-block__btn:hover {
+            background-color: #6fb048; }
+      .pricing-content .prices-wrap .prices .pricing-block-2 {
+        border-right: none;
+        border-left: none; }
 
 /* Plans */
 .plans-header {
