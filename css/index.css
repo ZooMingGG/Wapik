@@ -399,4 +399,39 @@ hr {
       font-family: 'Roboto Regular';
       font-size: 18px; }
 
+/* Download */
+.download_grey {
+  background: url(../images/home/download/download-background.jpg) center no-repeat;
+  background-size: cover; }
+
+.download-content {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .download-content .cta__title {
+    font-family: 'Roboto Light';
+    color: #0f5f5c;
+    font-size: 28px;
+    line-height: 28px; }
+  .download-content .cta__text {
+    margin-top: 6px;
+    font-family: 'Roboto Regular';
+    color: #83a7a5;
+    font-size: 15px;
+    line-height: 15px; }
+  .download-content .download-btn {
+    display: inline-block;
+    width: 285px;
+    height: 42px;
+    text-align: center;
+    background-color: #6fb048;
+    text-decoration: none;
+    font-family: 'Montserrat Regular';
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 42px;
+    border-radius: 2px; }
+
 /*# sourceMappingURL=index.css.map */
