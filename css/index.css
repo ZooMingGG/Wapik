@@ -432,6 +432,32 @@ hr {
     color: #ffffff;
     font-size: 13px;
     line-height: 42px;
-    border-radius: 2px; }
+    border-radius: 2px;
+    transition: background-color 0.2s linear; }
+    .download-content .download-btn:hover {
+      background-color: #58a728; }
+
+/* Footer */
+/* Copyright */
+.footer__hr {
+  border: none;
+  height: 1px;
+  background-color: #eef1ec; }
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 0 16px; }
+  .copyright .copyright__text {
+    font-family: 'Roboto Regular';
+    color: #83a7a5;
+    font-size: 12px;
+    line-height: 12px; }
+  .copyright .copyright-social {
+    display: flex; }
+    .copyright .copyright-social .copyright-social__link {
+      text-decoration: none;
+      margin-left: 10px; }
 
 /*# sourceMappingURL=index.css.map */
