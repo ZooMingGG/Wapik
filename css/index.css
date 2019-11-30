@@ -26,6 +26,8 @@ hr {
   /* Header-intro */ }
   .header .header-navigation {
     height: 84px;
+    max-width: 100%;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,29 +36,29 @@ hr {
       display: flex;
       justify-content: space-between;
       align-items: center; }
-      .header .header-navigation .header-info .header-logo {
+      .header .header-navigation .header-info .header-info__logo {
         font-family: 'Proxima Nova Bold';
         font-size: 28px;
         text-transform: uppercase;
         color: #ffffff;
         margin-right: 25px; }
-      .header .header-navigation .header-info .header-vertical {
+      .header .header-navigation .header-info .header-info__vertical {
         font-size: 26px;
         color: #597e7f;
         margin-right: 25px; }
-      .header .header-navigation .header-info .header-tel {
+      .header .header-navigation .header-info .header-contact__tel {
         text-decoration: none;
         color: #ffffff;
         font-size: 13px; }
-        .header .header-navigation .header-info .header-tel .header-span {
+        .header .header-navigation .header-info .header-contact__tel .header-contact__span {
           font-family: 'Montserrat Regular'; }
-        .header .header-navigation .header-info .header-tel .tel-icon {
+        .header .header-navigation .header-info .header-contact__tel .header-contact__tel-icon {
           color: #c1cfcf; }
     .header .header-navigation .nav {
       display: flex;
       justify-content: space-between;
       align-items: center; }
-      .header .header-navigation .nav .nav-link {
+      .header .header-navigation .nav .nav__link {
         font-family: 'Montserrat Regular';
         text-transform: uppercase;
         font-size: 13px;
@@ -64,11 +66,11 @@ hr {
         color: #b8c8c8;
         margin-right: 30px;
         transition: color 0.2s linear; }
-        .header .header-navigation .nav .nav-link:hover {
+        .header .header-navigation .nav .nav__link:hover {
           color: #ffffff; }
-      .header .header-navigation .nav .nav-link:last-child {
+      .header .header-navigation .nav .nav__link:last-child {
         margin-right: 0; }
-      .header .header-navigation .nav .nav-btn {
+      .header .header-navigation .nav .nav__btn {
         width: 110px;
         height: 32px;
         line-height: 32px;
@@ -79,25 +81,25 @@ hr {
         border-radius: 2px;
         opacity: 0.65;
         transition: opacity 0.2s linear; }
-        .header .header-navigation .nav .nav-btn:hover {
+        .header .header-navigation .nav .nav__btn:hover {
           opacity: 1; }
-  .header .header-hr {
+  .header .header__hr {
     background-color: #51797a;
     height: 1px;
     border: none; }
   .header .header-intro {
     margin-top: 210px; }
-    .header .header-intro .intro-title {
+    .header .header-intro .header-intro__title {
       font-family: 'Roboto Regular';
       font-size: 38px;
       color: #ffffff; }
-    .header .header-intro .intro-text {
+    .header .header-intro .header-intro__text {
       font-family: 'Roboto Regular';
       margin-top: 10px;
       font-size: 16px;
       line-height: 25px;
       color: #a7b9b9; }
-    .header .header-intro .intro-btn {
+    .header .header-intro .header-intro__btn {
       display: inline-block;
       width: 186px;
       height: 50px;
@@ -112,24 +114,24 @@ hr {
       font-size: 14px;
       margin-top: 20px;
       transitioN: background-color 0.2s linear; }
-      .header .header-intro .intro-btn:hover {
+      .header .header-intro .header-intro__btn:hover {
         background-color: #58a728; }
 
 /* Our features */
 .section-header {
-  margin: 95px auto 0;
+  margin: auto;
   text-align: center; }
-  .section-header .section-title {
+  .section-header .section-header__title {
     font-family: 'Roboto Light';
     font-size: 32px;
     color: #0f5f5c; }
-  .section-header .section-hr {
+  .section-header .section-header__hr {
     margin: 20px auto;
     border: none;
     width: 65px;
     height: 1px;
     background-color: #6fb048; }
-  .section-header .section-text {
+  .section-header .section-header__text {
     font-family: 'Roboto Regular';
     font-size: 15px;
     color: #83a7a5; }

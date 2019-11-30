@@ -30,6 +30,8 @@ hr {
 
     .header-navigation {
         height: 84px;
+        max-width: 100%;
+        flex-wrap: wrap;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -39,7 +41,7 @@ hr {
             justify-content: space-between;
             align-items: center;
 
-            .header-logo {
+            .header-info__logo {
                 font-family: 'Proxima Nova Bold';
                 font-size: 28px;          
                 text-transform: uppercase;
@@ -47,22 +49,22 @@ hr {
                 margin-right: 25px;
             }
 
-            .header-vertical {
+            .header-info__vertical {
                 font-size: 26px;
                 color: #597e7f;
                 margin-right: 25px;
             }
 
-            .header-tel {
+            .header-contact__tel {
                 text-decoration :none;
                 color: #ffffff;
                 font-size: 13px;
 
-                .header-span {
+                .header-contact__span {
                     font-family: 'Montserrat Regular';
                 }
 
-                .tel-icon {
+                .header-contact__tel-icon {
                     color: #c1cfcf;
                 }
             }
@@ -73,7 +75,7 @@ hr {
             justify-content: space-between;
             align-items: center;
 
-            .nav-link {
+            .nav__link {
                 font-family: 'Montserrat Regular';
                 text-transform: uppercase;
                 font-size: 13px;
@@ -87,11 +89,11 @@ hr {
                 }
             }
 
-            .nav-link:last-child {
+            .nav__link:last-child {
                 margin-right: 0;
             }
 
-            .nav-btn {
+            .nav__btn {
                 width: 110px;
                 height: 32px;
                 line-height: 32px;
@@ -110,7 +112,7 @@ hr {
         }
     }
 
-    .header-hr {
+    .header__hr {
         background-color: #51797a;
         height: 1px; 
         border: none;
@@ -119,13 +121,13 @@ hr {
     .header-intro {
          margin-top: 210px;
 
-        .intro-title {
+        .header-intro__title {
             font-family: 'Roboto Regular';
             font-size: 38px;
             color: #ffffff;
         }
 
-        .intro-text {
+        .header-intro__text {
             font-family: 'Roboto Regular';
             margin-top: 10px;
             font-size: 16px;
@@ -133,7 +135,7 @@ hr {
             color: #a7b9b9;
         }
 
-        .intro-btn {
+        .header-intro__btn {
             display: inline-block;
             width: 186px;
             height: 50px;
@@ -157,16 +159,16 @@ hr {
 }
 /* Our features */
 .section-header {
-    margin: 95px auto 0;
+    margin: auto;
     text-align: center;
 
-    .section-title {
+    .section-header__title {
         font-family: 'Roboto Light';
         font-size: 32px;
         color: #0f5f5c;
     }
 
-    .section-hr {
+    .section-header__hr {
         margin: 20px auto;
         border: none;
         width: 65px;
@@ -174,7 +176,7 @@ hr {
         background-color: #6fb048;
     }
 
-    .section-text {
+    .section-header__text {
         font-family: 'Roboto Regular';
         font-size: 15px;
         color: #83a7a5;
@@ -751,7 +753,6 @@ hr {
             }
         }
     }
-
 /* Copyright */
     .footer__hr {
         margin-top: 50px;
