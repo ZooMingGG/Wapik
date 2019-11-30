@@ -446,7 +446,8 @@ hr {
   /* Copyright */ }
   .footer-content .footer-info {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    flex-wrap: wrap; }
     .footer-content .footer-info .footer-contact {
       width: 17.5%; }
       .footer-content .footer-info .footer-contact .footer-contact__title {
@@ -522,6 +523,7 @@ hr {
           padding-left: 16px;
           height: 36px;
           width: 240px;
+          max-width: 100%;
           border-radius: 5px;
           border: none;
           outline: none;
@@ -554,6 +556,8 @@ hr {
           border: none;
           outline: none;
           color: transparent; }
+          .footer-content .footer-info .footer-newsletter .newsletter-form .newsletter-form__submit:hover {
+            cursor: pointer; }
   .footer-content .footer__hr {
     margin-top: 50px;
     border: none;

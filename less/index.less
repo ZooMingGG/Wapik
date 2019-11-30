@@ -615,6 +615,7 @@ hr {
     .footer-info {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
 
         .footer-contact {
             width: 17.5%;
@@ -716,11 +717,12 @@ hr {
                 display: flex;
                 align-items: center;
                 margin-top: 17px;
-
-                .newsletter-form__email {
+            
+                .newsletter-form__email {  
                     padding-left: 16px;
                     height: 36px;
                     width: 240px;
+                    max-width: 100%;
                     border-radius: 5px;
                     border: none;
                     outline: none;
@@ -749,6 +751,10 @@ hr {
                     border: none;
                     outline: none;
                     color: transparent;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
                 }
             }
         }
