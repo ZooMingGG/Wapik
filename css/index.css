@@ -400,12 +400,12 @@ hr {
       font-size: 18px; }
 
 /* Download */
-.download_grey {
+.download--grey {
   background: url(../images/home/download/download-background.jpg) center no-repeat;
   background-size: cover; }
 
 .download-content {
-  height: 200px;
+  padding: 75px 0 77px;
   display: flex;
   justify-content: space-between;
   align-items: center; }
