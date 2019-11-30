@@ -224,27 +224,29 @@ hr {
 /* Review */
 .review {
   padding: 140px 0; }
-  .review .review-items {
+  .review .review-content {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-    .review .review-items .review-item-1 {
-      width: 500px; }
-    .review .review-items .review-text {
-      font-family: 'Merriweather Light';
-      font-size: 22px;
-      line-height: 40px;
-      color: #83a7a5; }
-    .review .review-items .review-name {
-      margin-top: 15px;
-      font-family: 'Roboto Medium';
-      font-size: 14px;
-      color: #6fb048; }
-    .review .review-items .review-post {
-      margin-top: 5px;
-      font-family: 'Roboto regular';
-      font-size: 14px;
-      color: #83a7a5; }
+    .review .review-content .review-info {
+      width: 47.5%; }
+      .review .review-content .review-info .review-info__text {
+        font-family: 'Merriweather Light';
+        font-size: 22px;
+        line-height: 40px;
+        color: #83a7a5; }
+      .review .review-content .review-info .review-info__name {
+        margin-top: 15px;
+        font-family: 'Roboto Medium';
+        font-size: 14px;
+        color: #6fb048; }
+      .review .review-content .review-info .review-info__post {
+        margin-top: 5px;
+        font-family: 'Roboto regular';
+        font-size: 14px;
+        color: #83a7a5; }
+    .review .review-content .review-photo {
+      max-width: 40%; }
 
 /* About */
 .about {
