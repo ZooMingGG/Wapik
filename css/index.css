@@ -145,45 +145,45 @@ hr {
 /* Our features */
 .features-content {
   padding: 96px 0 125px; }
-  .features-content .features-1-items {
+  .features-content .our-first-features {
     display: flex;
     justify-content: space-between;
     margin-top: 70px; }
-    .features-content .features-1-items .feature-1-item {
+    .features-content .our-first-features .our-feature {
       text-align: center;
       width: 31%; }
-      .features-content .features-1-items .feature-1-item .feature-1-img {
+      .features-content .our-first-features .our-feature .our-feature__img {
         height: 60px; }
-      .features-content .features-1-items .feature-1-item .feature-1-title {
+      .features-content .our-first-features .our-feature .our-feature__title {
         font-family: 'Roboto Regular';
         font-size: 16px;
         color: #0f5f5c;
         margin: 25px 0 20px; }
-      .features-content .features-1-items .feature-1-item .feature-1-text {
+      .features-content .our-first-features .our-feature .our-feature__text {
         font-family: 'Roboto Regular';
         font-size: 14px;
         color: #83a7a5; }
   .features-content .parallel-hr {
     text-align: center;
     margin: 35px 0 0; }
-  .features-content .features-2-items {
+  .features-content .our-second-features {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; }
-    .features-content .features-2-items .feature-2-item {
+    .features-content .our-second-features .feature {
       width: 47%; }
-      .features-content .features-2-items .feature-2-item .feature-2-title {
+      .features-content .our-second-features .feature .feature__title {
         display: flex;
         align-items: center;
         height: 40px;
         margin: 55px 0 20px; }
-        .features-content .features-2-items .feature-2-item .feature-2-title .feature-2-title-img {
+        .features-content .our-second-features .feature .feature__title .feature__img {
           margin-right: 20px; }
-        .features-content .features-2-items .feature-2-item .feature-2-title .feature-2-title-text {
+        .features-content .our-second-features .feature .feature__title .feature__text {
           font-family: 'Roboto Regular';
           font-size: 16px;
           color: #0f5f5c; }
-      .features-content .features-2-items .feature-2-item .feature-2-text {
+      .features-content .our-second-features .feature .feature__text {
         font-family: 'Roboto Regular';
         font-size: 14px;
         color: #83a7a5; }
