@@ -22,6 +22,42 @@ hr {
     max-width: 1055px;
     margin: auto;
 }
+
+.section-header {
+    margin: auto;
+    text-align: center;
+
+    .section-header__img {
+        margin-bottom: 5px;
+    }
+
+    .section-header__title {
+        font-family: 'Roboto Light';
+        font-size: 32px;
+        line-height: 32px;
+        color: #0f5f5c;
+    }
+
+    .section-header__title--green {
+        color: #6fb048;
+    }
+
+    .section-header__hr {
+        margin: 20px auto 0;
+        border: none;
+        width: 65px;
+        height: 1px;
+        background-color: #6fb048;
+    }
+
+    .section-header__text {
+        margin-top: 20px;
+        font-family: 'Roboto Regular';
+        font-size: 15px;
+        line-height: 15px;
+        color: #83a7a5;
+    }
+}
 /* Header */
 .header {
     background: url('../images/home/Header/header-background.jpg') center, no-repeat;
@@ -158,94 +194,72 @@ hr {
     }
 }
 /* Our features */
-.section-header {
-    margin: auto;
-    text-align: center;
-
-    .section-header__title {
-        font-family: 'Roboto Light';
-        font-size: 32px;
-        color: #0f5f5c;
-    }
-
-    .section-header__hr {
-        margin: 20px auto;
-        border: none;
-        width: 65px;
-        height: 1px;
-        background-color: #6fb048;
-    }
-
-    .section-header__text {
-        font-family: 'Roboto Regular';
-        font-size: 15px;
-        color: #83a7a5;
-    }
-}
-
-.features-1-items {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 70px;
-
-    .feature-1-item {
-        text-align: center;
-        width: 31%;
-
-        .feature-1-img {
-            height: 60px;
-        }
-
-        .feature-1-title {
-            font-family: 'Roboto Regular';
-            font-size: 16px;
-            color: #0f5f5c;
-            margin: 25px 0 20px;
-        }
-
-        .feature-1-text {
-            font-family: 'Roboto Regular';
-            font-size: 14px;
-            color: #83a7a5;
-        }
-    }
-}
-
-.delimitation {
-    text-align: center;
-    margin: 35px 0 0;
-}
-
-.features-2-items {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 125px;
-
-    .feature-2-item {
-        width: 47%;
-
-        .feature-2-title {
-            display: flex;
-            align-items: center;
-            height: 40px;
-            margin: 55px 0 20px;
-
-            .feature-2-title-img {
-                margin-right: 20px;
+.features-content {
+    padding: 96px 0 125px;
+ 
+    .features-1-items {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+    
+        .feature-1-item {
+            text-align: center;
+            width: 31%;
+    
+            .feature-1-img {
+                height: 60px;
             }
-
-            .feature-2-title-text {
+    
+            .feature-1-title {
                 font-family: 'Roboto Regular';
                 font-size: 16px;
                 color: #0f5f5c;
-            }   
+                margin: 25px 0 20px;
+            }
+    
+            .feature-1-text {
+                font-family: 'Roboto Regular';
+                font-size: 14px;
+                color: #83a7a5;
+            }
         }
-
-        .feature-2-text {
-            font-family: 'Roboto Regular';
-            font-size: 14px;
-            color: #83a7a5;
+    }
+    
+    .parallel-hr {
+        text-align: center;
+        margin: 35px 0 0;
+    }
+    
+    .features-2-items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+        .feature-2-item {
+            width: 47%;
+    
+            .feature-2-title {
+                display: flex;
+                align-items: center;
+                height: 40px;
+                margin: 55px 0 20px;
+    
+                .feature-2-title-img {
+                    margin-right: 20px;
+                }
+    
+                .feature-2-title-text {
+                    font-family: 'Roboto Regular';
+                    font-size: 16px;
+                    color: #0f5f5c;
+                }   
+            }
+    
+            .feature-2-text {
+                font-family: 'Roboto Regular';
+                font-size: 14px;
+                color: #83a7a5;
+            }
         }
     }
 }
@@ -254,11 +268,6 @@ hr {
     background-color: #eef1ec;
     padding-top: 55px;
     
-
-    .template-header {
-        margin-top: 0px;
-    }
-
     .perfect-template-body {
         width: 100%;
         max-width: 1000px;
@@ -375,31 +384,7 @@ hr {
     text-align: center;
     padding-top: 90px;
 
-    .section-headerr {
-        text-align: center;
-
-        .section-header__title {
-            font-family: 'Roboto Light';
-            font-size: 32px;
-            color: #0f5f5c;
-        }
-
-        .section-header__hr {
-            margin: 20px auto;
-            border: none;
-            width: 65px;
-            height: 1px;
-            background-color: #6fb048;
-        }
-
-        .section-header__text {
-            font-family: 'Roboto Regular';
-            font-size: 15px;
-            color: #83a7a5;
-        }
-    }
-
-    .prices-wrap {
+    .prices-body {
         margin-top: 40px;
 
         .prices {
@@ -475,44 +460,29 @@ hr {
     } 
 } 
 /* Plans */
-.plans-header {
-    text-align: center;
-    margin-top: 80px;
-
-    .plans-header__title {
-        font-family: 'Roboto Light';
-        font-size: 32px;
-        color: #0f5f5c;
-    }
-
-    .plans-header__hr {
-        margin: 20px auto 0;
-        border: none;
-        width: 65px;
-        height: 1px;
-        background-color: #6fb048;
-    }    
-}
-
-.plan-blocks {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 34px;
-
-    .plan-info {
+.plans-content {
+    padding-top: 80px;
+    
+    .plans-body {
         display: flex;
-        align-items: center;
-        margin-top: 10px;
-        height: 26px;
-
-        .plan-info__img {
-            margin-right: 10px;
-        }
-
-        .plan-info__text {
-            font-family: 'Roboto Regular';
-            font-size: 14px;
-            color: #597e7f;
+        justify-content: space-between;
+        margin-top: 34px;
+    
+        .plan-info {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            height: 26px;
+    
+            .plan-info__img {
+                margin-right: 10px;
+            }
+    
+            .plan-info__text {
+                font-family: 'Roboto Regular';
+                font-size: 14px;
+                color: #597e7f;
+            }
         }
     }
 }
@@ -520,34 +490,7 @@ hr {
 .support-content {
     padding: 55px 0 95px;
 
-    .section-headerr {
-        text-align: center;
-
-        .section-header__img {
-            margin-bottom: 5px;
-        }
-
-        .section-header__title {
-            font-family: 'Roboto Light';
-            font-size: 32px;
-            color: #6fb048;
-        }
-
-        .section-header__hr {
-            margin: 20px auto 0;
-            border: none;
-            width: 65px;
-            height: 1px;
-            background-color: #6fb048;
-        }
-
-        .section-header__text {
-            font-family: 'Roboto Regular';
-            margin-top: 19px;
-            font-size: 15px;
-            color: #83a7a5;
-        }
-    }
+    
 
     .support-email {
         text-align: center;
