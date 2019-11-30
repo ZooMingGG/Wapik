@@ -181,45 +181,43 @@ hr {
       color: #83a7a5; }
 
 /* Perfect template */
-.template {
+.perfect-template {
   background-color: #eef1ec;
   padding-top: 55px; }
-  .template .template-header {
+  .perfect-template .template-header {
     margin-top: 0px; }
-  .template .template-items {
+  .perfect-template .perfect-template-body {
     width: 100%;
     max-width: 1000px;
     margin: 25px auto 0;
     display: flex;
     justify-content: space-between;
     align-items: center; }
-    .template .template-items .template-item {
-      margin-right: 90px; }
-      .template .template-items .template-item .template-phone {
-        displaY: block; }
-      .template .template-items .template-item .template-title {
+    .perfect-template .perfect-template-body .perfect-template__image {
+      max-width: 42%; }
+    .perfect-template .perfect-template-body .perfect-template-info {
+      width: 50%; }
+      .perfect-template .perfect-template-body .perfect-template-info .perfect-template-info__title {
         font-family: 'Roboto Light';
         font-size: 32px;
         color: #0f5f5c; }
-      .template .template-items .template-item .template-text {
+      .perfect-template .perfect-template-body .perfect-template-info .perfect-template-info__text {
         margin: 15px 0 20px;
         font-family: 'Roboto regular';
         font-size: 14px;
         line-height: 22px;
         color: #a4bcba; }
-      .template .template-items .template-item .enter {
-        font-family: 'Roboto regular';
-        font-size: 14px;
-        color: #a4bcba; }
-        .template .template-items .template-item .enter .enter-item {
-          display: flex;
-          align-items: center;
-          height: 26px;
-          margin-bottom: 11px; }
-          .template .template-items .template-item .enter .enter-item .enter-icon {
-            margin-right: 10px; }
-    .template .template-items .template-item:last-child {
-      margin-right: 0px; }
+      .perfect-template .perfect-template-body .perfect-template-info .perfect-template-include {
+        display: flex;
+        align-items: center;
+        height: 26px;
+        margin-bottom: 11px; }
+        .perfect-template .perfect-template-body .perfect-template-info .perfect-template-include .perfect-template-include__text {
+          font-family: 'Roboto regular';
+          font-size: 14px;
+          color: #a4bcba; }
+        .perfect-template .perfect-template-body .perfect-template-info .perfect-template-include .perfect-template-include__icon {
+          margin-right: 10px; }
 
 /* Review */
 .review {

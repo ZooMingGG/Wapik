@@ -248,7 +248,7 @@ hr {
     }
 }
 /* Perfect template */
-.template {
+.perfect-template {
     background-color: #eef1ec;
     padding-top: 55px;
     
@@ -257,7 +257,7 @@ hr {
         margin-top: 0px;
     }
 
-    .template-items {
+    .perfect-template-body {
         width: 100%;
         max-width: 1000px;
         margin: 25px auto 0;
@@ -265,47 +265,43 @@ hr {
         justify-content: space-between;
         align-items: center;
         
-        .template-item {
-            margin-right: 90px;
+        .perfect-template__image {
+            max-width: 42%;
+        }
 
-            .template-phone {
-                displaY: block;
-            }
+        .perfect-template-info {
+            width: 50%;
 
-            .template-title {
+            .perfect-template-info__title {
                 font-family: 'Roboto Light';
                 font-size: 32px;
                 color :#0f5f5c;
             }
-
-            .template-text {
+    
+            .perfect-template-info__text {
                 margin: 15px 0 20px;
                 font-family: 'Roboto regular';
                 font-size: 14px;
                 line-height: 22px;
                 color: #a4bcba;
             }
-
-            .enter {
-                font-family: 'Roboto regular';
-                font-size: 14px;
-                color: #a4bcba;
-
-                .enter-item {
-                    display: flex;
-                    align-items: center;
-                    height: 26px;
-                    margin-bottom: 11px;
-
-                    .enter-icon {
-                        margin-right: 10px;
-                    }
-                 }
+    
+            .perfect-template-include {
+                display: flex;
+                align-items: center;
+                height: 26px;
+                margin-bottom: 11px;
+    
+                .perfect-template-include__text {
+                    font-family: 'Roboto regular';
+                    font-size: 14px;
+                    color: #a4bcba;
+                }
+    
+                .perfect-template-include__icon {
+                    margin-right: 10px;
+                }
             }
-        }
-
-        .template-item:last-child {
-            margin-right: 0px;
         }
     }
 }
