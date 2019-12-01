@@ -135,6 +135,24 @@ hr {
       font-size: 15px;
       line-height: 15px;
       color: #83a7a5; }
+  .about-us-content .about-us-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0 100px; }
+    .about-us-content .about-us-body .our-feature {
+      text-align: center;
+      width: 31%; }
+      .about-us-content .about-us-body .our-feature__img {
+        height: 60px; }
+      .about-us-content .about-us-body .our-feature__title {
+        font-family: 'Roboto Regular';
+        font-size: 16px;
+        color: #0f5f5c;
+        margin: 25px 0 20px; }
+      .about-us-content .about-us-body .our-feature__text {
+        font-family: 'Roboto Regular';
+        font-size: 14px;
+        color: #83a7a5; }
 
 /* Download */
 .download--green {
