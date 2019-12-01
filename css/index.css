@@ -36,13 +36,13 @@ hr {
       display: flex;
       justify-content: space-between;
       align-items: center; }
-      .header .header-navigation .header-info .header-info__logo {
+      .header .header-navigation .header-info__logo {
         font-family: 'Proxima Nova Bold';
         font-size: 28px;
         text-transform: uppercase;
         color: #ffffff;
         margin-right: 25px; }
-      .header .header-navigation .header-info .header-info__vertical {
+      .header .header-navigation .header-info__vertical {
         font-size: 26px;
         color: #597e7f;
         margin-right: 25px; }
@@ -58,7 +58,7 @@ hr {
       display: flex;
       justify-content: space-between;
       align-items: center; }
-      .header .header-navigation .nav .nav__link {
+      .header .header-navigation .nav__link {
         font-family: 'Montserrat Regular';
         text-transform: uppercase;
         font-size: 13px;
@@ -66,7 +66,7 @@ hr {
         color: #b8c8c8;
         margin-right: 30px;
         transition: color 0.2s linear; }
-        .header .header-navigation .nav .nav__link:hover {
+        .header .header-navigation .nav__link:hover {
           color: #ffffff; }
       .header .header-navigation .nav .nav__link:last-child {
         margin-right: 0; }
@@ -89,17 +89,17 @@ hr {
     border: none; }
   .header .header-intro {
     margin-top: 210px; }
-    .header .header-intro .header-intro__title {
+    .header .header-intro__title {
       font-family: 'Roboto Regular';
       font-size: 38px;
       color: #ffffff; }
-    .header .header-intro .header-intro__text {
+    .header .header-intro__text {
       font-family: 'Roboto Regular';
       margin-top: 10px;
       font-size: 16px;
       line-height: 25px;
       color: #a7b9b9; }
-    .header .header-intro .header-intro__btn {
+    .header .header-intro__btn {
       display: inline-block;
       width: 186px;
       height: 50px;
@@ -114,7 +114,7 @@ hr {
       font-size: 14px;
       margin-top: 20px;
       transitioN: background-color 0.2s linear; }
-      .header .header-intro .header-intro__btn:hover {
+      .header .header-intro__btn:hover {
         background-color: #58a728; }
 
 /* Our features */
@@ -123,18 +123,18 @@ hr {
   .features-content .section-header {
     margin: auto;
     text-align: center; }
-    .features-content .section-header .section-header__title {
+    .features-content .section-header__title {
       font-family: 'Roboto Light';
       font-size: 32px;
       line-height: 32px;
       color: #0f5f5c; }
-    .features-content .section-header .section-header__hr {
+    .features-content .section-header__hr {
       margin: 20px auto 0;
       border: none;
       width: 65px;
       height: 1px;
       background-color: #6fb048; }
-    .features-content .section-header .section-header__text {
+    .features-content .section-header__text {
       margin-top: 20px;
       font-family: 'Roboto Regular';
       font-size: 15px;
@@ -147,14 +147,14 @@ hr {
     .features-content .our-first-features .our-feature {
       text-align: center;
       width: 31%; }
-      .features-content .our-first-features .our-feature .our-feature__img {
+      .features-content .our-first-features .our-feature__img {
         height: 60px; }
-      .features-content .our-first-features .our-feature .our-feature__title {
+      .features-content .our-first-features .our-feature__title {
         font-family: 'Roboto Regular';
         font-size: 16px;
         color: #0f5f5c;
         margin: 25px 0 20px; }
-      .features-content .our-first-features .our-feature .our-feature__text {
+      .features-content .our-first-features .our-feature__text {
         font-family: 'Roboto Regular';
         font-size: 14px;
         color: #83a7a5; }
@@ -167,18 +167,18 @@ hr {
     flex-wrap: wrap; }
     .features-content .our-second-features .feature {
       width: 47%; }
-      .features-content .our-second-features .feature .feature__title {
+      .features-content .our-second-features .feature__title {
         display: flex;
         align-items: center;
         height: 40px;
         margin: 55px 0 20px; }
-        .features-content .our-second-features .feature .feature__title .feature__img {
+        .features-content .our-second-features .feature__title__img {
           margin-right: 20px; }
-        .features-content .our-second-features .feature .feature__title .feature__text {
+        .features-content .our-second-features .feature__title__text {
           font-family: 'Roboto Regular';
           font-size: 16px;
           color: #0f5f5c; }
-      .features-content .our-second-features .feature .feature__text {
+      .features-content .our-second-features .feature__text {
         font-family: 'Roboto Regular';
         font-size: 14px;
         color: #83a7a5; }
@@ -190,18 +190,18 @@ hr {
   .perfect-template .section-header {
     margin: auto;
     text-align: center; }
-    .perfect-template .section-header .section-header__title {
+    .perfect-template .section-header__title {
       font-family: 'Roboto Light';
       font-size: 32px;
       line-height: 32px;
       color: #0f5f5c; }
-    .perfect-template .section-header .section-header__hr {
+    .perfect-template .section-header__hr {
       margin: 20px auto 0;
       border: none;
       width: 65px;
       height: 1px;
       background-color: #6fb048; }
-    .perfect-template .section-header .section-header__text {
+    .perfect-template .section-header__text {
       margin-top: 20px;
       font-family: 'Roboto Regular';
       font-size: 15px;
@@ -218,11 +218,11 @@ hr {
       max-width: 42%; }
     .perfect-template .perfect-template-body .perfect-template-info {
       width: 50%; }
-      .perfect-template .perfect-template-body .perfect-template-info .perfect-template-info__title {
+      .perfect-template .perfect-template-body .perfect-template-info__title {
         font-family: 'Roboto Light';
         font-size: 32px;
         color: #0f5f5c; }
-      .perfect-template .perfect-template-body .perfect-template-info .perfect-template-info__text {
+      .perfect-template .perfect-template-body .perfect-template-info__text {
         margin: 15px 0 20px;
         font-family: 'Roboto regular';
         font-size: 14px;
@@ -233,11 +233,11 @@ hr {
         align-items: center;
         height: 26px;
         margin-bottom: 11px; }
-        .perfect-template .perfect-template-body .perfect-template-info .perfect-template-include .perfect-template-include__text {
+        .perfect-template .perfect-template-body .perfect-template-info .perfect-template-include__text {
           font-family: 'Roboto regular';
           font-size: 14px;
           color: #a4bcba; }
-        .perfect-template .perfect-template-body .perfect-template-info .perfect-template-include .perfect-template-include__icon {
+        .perfect-template .perfect-template-body .perfect-template-info .perfect-template-include__icon {
           margin-right: 10px; }
 
 /* Review */
@@ -249,17 +249,17 @@ hr {
     align-items: center; }
     .review .review-content .review-info {
       width: 47.5%; }
-      .review .review-content .review-info .review-info__text {
+      .review .review-content .review-info__text {
         font-family: 'Merriweather Light';
         font-size: 22px;
         line-height: 40px;
         color: #83a7a5; }
-      .review .review-content .review-info .review-info__name {
+      .review .review-content .review-info__name {
         margin-top: 15px;
         font-family: 'Roboto Medium';
         font-size: 14px;
         color: #6fb048; }
-      .review .review-content .review-info .review-info__post {
+      .review .review-content .review-info__post {
         margin-top: 5px;
         font-family: 'Roboto regular';
         font-size: 14px;
@@ -274,11 +274,11 @@ hr {
   padding: 175px 0 175px; }
   .about .about-info {
     width: 47.5%; }
-    .about .about-info .about-info__title {
+    .about .about-info__title {
       font-family: 'Roboto Light';
       font-size: 32px;
       color: #0f5f5c; }
-    .about .about-info .about-info__text {
+    .about .about-info__text {
       margin-top: 15px;
       font-family: 'Roboto Regular';
       font-size: 14px;
@@ -292,18 +292,18 @@ hr {
   .pricing-content .section-header {
     margin: auto;
     text-align: center; }
-    .pricing-content .section-header .section-header__title {
+    .pricing-content .section-header__title {
       font-family: 'Roboto Light';
       font-size: 32px;
       line-height: 32px;
       color: #0f5f5c; }
-    .pricing-content .section-header .section-header__hr {
+    .pricing-content .section-header__hr {
       margin: 20px auto 0;
       border: none;
       width: 65px;
       height: 1px;
       background-color: #6fb048; }
-    .pricing-content .section-header .section-header__text {
+    .pricing-content .section-header__text {
       margin-top: 20px;
       font-family: 'Roboto Regular';
       font-size: 15px;
@@ -319,31 +319,31 @@ hr {
         border: 1px #c1d3d2 solid;
         height: 358px;
         width: 253px; }
-        .pricing-content .prices-body .prices .pricing-block .pricing-block__title {
+        .pricing-content .prices-body .prices .pricing-block__title {
           margin: 25px 0 10px;
           font-family: 'Roboto Medium';
           text-transform: uppercase;
           font-size: 15px;
           color: #6fb048; }
-        .pricing-content .prices-body .prices .pricing-block .pricing-block__price {
+        .pricing-content .prices-body .prices .pricing-block__price {
           margin-bottom: 15px; }
-          .pricing-content .prices-body .prices .pricing-block .pricing-block__price .pricing-block__value {
+          .pricing-content .prices-body .prices .pricing-block__price .pricing-block__value {
             font-family: 'Montserrat Regular';
             color: #0f5f5c;
             font-size: 65px;
             line-height: 65px;
             font-weight: 900; }
-          .pricing-content .prices-body .prices .pricing-block .pricing-block__price .pricing-block__month {
+          .pricing-content .prices-body .prices .pricing-block__price .pricing-block__month {
             font-family: 'Roboto Regular';
             font-size: 14px;
             color: #0f5f5c;
             font-weight: 700; }
-        .pricing-content .prices-body .prices .pricing-block .pricing-block__text {
+        .pricing-content .prices-body .prices .pricing-block__text {
           font-family: 'Roboto Regular';
           font-size: 14px;
           line-height: 28px;
           color: #597e7f; }
-        .pricing-content .prices-body .prices .pricing-block .pricing-block__btn {
+        .pricing-content .prices-body .prices .pricing-block__btn {
           display: inline-block;
           text-decoration: none;
           margin-top: 25px;
@@ -357,7 +357,7 @@ hr {
           line-height: 42px;
           border-radius: 2px;
           transition: background-color 0.2s linear; }
-          .pricing-content .prices-body .prices .pricing-block .pricing-block__btn:hover {
+          .pricing-content .prices-body .prices .pricing-block__btn:hover {
             background-color: #6fb048; }
       .pricing-content .prices-body .prices .pricing-block-2 {
         border-right: none;
@@ -369,12 +369,12 @@ hr {
   .plans-content .section-header {
     margin: auto;
     text-align: center; }
-    .plans-content .section-header .section-header__title {
+    .plans-content .section-header__title {
       font-family: 'Roboto Light';
       font-size: 32px;
       line-height: 32px;
       color: #0f5f5c; }
-    .plans-content .section-header .section-header__hr {
+    .plans-content .section-header__hr {
       margin: 20px auto 0;
       border: none;
       width: 65px;
@@ -389,9 +389,9 @@ hr {
       align-items: center;
       margin-top: 10px;
       height: 26px; }
-      .plans-content .plans-body .plan-info .plan-info__img {
+      .plans-content .plans-body .plan-info__img {
         margin-right: 10px; }
-      .plans-content .plans-body .plan-info .plan-info__text {
+      .plans-content .plans-body .plan-info__text {
         font-family: 'Roboto Regular';
         font-size: 14px;
         color: #597e7f; }
@@ -402,22 +402,22 @@ hr {
   .support-content .section-header {
     margin: auto;
     text-align: center; }
-    .support-content .section-header .section-header__img {
+    .support-content .section-header__img {
       margin-bottom: 5px; }
-    .support-content .section-header .section-header__title {
+    .support-content .section-header__title {
       font-family: 'Roboto Light';
       font-size: 32px;
       line-height: 32px;
       color: #0f5f5c; }
-    .support-content .section-header .section-header__title--green {
+    .support-content .section-header__title--green {
       color: #6fb048; }
-    .support-content .section-header .section-header__hr {
+    .support-content .section-header__hr {
       margin: 20px auto 0;
       border: none;
       width: 65px;
       height: 1px;
       background-color: #6fb048; }
-    .support-content .section-header .section-header__text {
+    .support-content .section-header__text {
       margin-top: 20px;
       font-family: 'Roboto Regular';
       font-size: 15px;
@@ -426,7 +426,7 @@ hr {
   .support-content .support-email {
     text-align: center;
     margin-top: 37px; }
-    .support-content .support-email .support-email__link {
+    .support-content .support-email__link {
       text-decoration: none;
       color: #0f5f5c;
       font-family: 'Roboto Regular';
@@ -480,27 +480,27 @@ hr {
     flex-wrap: wrap; }
     .footer-content .footer-info .footer-contact {
       width: 17.5%; }
-      .footer-content .footer-info .footer-contact .footer-contact__title {
+      .footer-content .footer-info .footer-contact__title {
         font-family: 'Proxima Nova Bold';
         color: #0f5f5c;
         font-size: 22px;
         line-height: 22px;
         margin-bottom: 10px; }
-      .footer-content .footer-info .footer-contact .footer-contact__email {
+      .footer-content .footer-info .footer-contact__email {
         text-decoration: none;
         font-family: 'Roboto Regular';
         font-size: 13px;
         color: #8daeac;
         line-height: 28px; }
-        .footer-content .footer-info .footer-contact .footer-contact__email .email-span {
+        .footer-content .footer-info .footer-contact__email .email-span {
           color: #0f5f5c; }
-      .footer-content .footer-info .footer-contact .footer-contact__phone {
+      .footer-content .footer-info .footer-contact__phone {
         text-decoration: none;
         font-family: 'Roboto Regular';
         font-size: 13px;
         color: #8daeac;
         line-height: 28px; }
-      .footer-content .footer-info .footer-contact .footer-contact__address {
+      .footer-content .footer-info .footer-contact__address {
         text-decoration: none;
         font-family: 'Roboto Regular';
         font-size: 13px;
@@ -508,13 +508,13 @@ hr {
         line-height: 28px; }
     .footer-content .footer-info .footer-company {
       width: 6.6%; }
-      .footer-content .footer-info .footer-company .footer-company__title {
+      .footer-content .footer-info .footer-company__title {
         font-family: 'Roboto Medium';
         margin-bottom: 15px;
         font-size: 13px;
         line-height: 13px;
         color: #0f5f5c; }
-      .footer-content .footer-info .footer-company .footer-company__text {
+      .footer-content .footer-info .footer-company__text {
         font-family: 'Roboto Regular';
         font-size: 13px;
         line-height: 13px;
@@ -522,25 +522,25 @@ hr {
         line-height: 28px; }
     .footer-content .footer-info .footer-others {
       width: 8.5%; }
-      .footer-content .footer-info .footer-others .footer-others__title {
+      .footer-content .footer-info .footer-others__title {
         font-family: 'Roboto Medium';
         margin-bottom: 15px;
         font-size: 13px;
         line-height: 13px;
         color: #0f5f5c; }
-      .footer-content .footer-info .footer-others .footer-others__text {
+      .footer-content .footer-info .footer-others__text {
         font-family: "Roboto Regular";
         font-size: 13px;
         color: #83a7a5;
         line-height: 28px; }
     .footer-content .footer-info .footer-newsletter {
       width: 23%; }
-      .footer-content .footer-info .footer-newsletter .footer-newsletter__title {
+      .footer-content .footer-info .footer-newsletter__title {
         font-family: 'Roboto Medium';
         font-size: 13px;
         color: #0f5f5c;
         margin-bottom: 20px; }
-      .footer-content .footer-info .footer-newsletter .footer-newsletter__text {
+      .footer-content .footer-info .footer-newsletter__text {
         font-family: 'Roboto Regular';
         font-size: 13px;
         color: #83a7a5;
@@ -549,7 +549,7 @@ hr {
         display: flex;
         align-items: center;
         margin-top: 17px; }
-        .footer-content .footer-info .footer-newsletter .newsletter-form .newsletter-form__email {
+        .footer-content .footer-info .footer-newsletter .newsletter-form__email {
           padding-left: 16px;
           height: 36px;
           width: 240px;
@@ -577,7 +577,7 @@ hr {
           color: transparent; }
         .footer-content .footer-info .footer-newsletter .newsletter-form :focus:-ms-input-placeholder {
           color: transparent; }
-        .footer-content .footer-info .footer-newsletter .newsletter-form .newsletter-form__submit {
+        .footer-content .footer-info .footer-newsletter .newsletter-form__submit {
           margin-left: -33px;
           height: 18px;
           width: 18px;
@@ -586,7 +586,7 @@ hr {
           border: none;
           outline: none;
           color: transparent; }
-          .footer-content .footer-info .footer-newsletter .newsletter-form .newsletter-form__submit:hover {
+          .footer-content .footer-info .footer-newsletter .newsletter-form__submit:hover {
             cursor: pointer; }
   .footer-content .footer__hr {
     margin-top: 50px;
@@ -598,14 +598,14 @@ hr {
     justify-content: space-between;
     align-items: center;
     padding: 19px 0 16px; }
-    .footer-content .copyright .copyright__text {
+    .footer-content .copyright__text {
       font-family: 'Roboto Regular';
       color: #83a7a5;
       font-size: 12px;
       line-height: 12px; }
     .footer-content .copyright .copyright-social {
       display: flex; }
-      .footer-content .copyright .copyright-social .copyright-social__link {
+      .footer-content .copyright .copyright-social__link {
         text-decoration: none;
         margin-left: 10px; }
 
