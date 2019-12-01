@@ -1,2 +1,411 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+hr {
+  margin: 0; }
+
+.container {
+  width: 100%;
+  max-width: 1055px;
+  margin: auto; }
+
+/* Header */
+.pricing-header {
+  background-color: #eef1ec; }
+  .pricing-header .header-navigation {
+    height: 84px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Navigation */ }
+    .pricing-header .header-navigation .header-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .pricing-header .header-navigation .header-info__logo {
+        font-family: 'Proxima Nova Bold';
+        font-size: 28px;
+        text-transform: uppercase;
+        color: #0f5f5c;
+        margin-right: 25px; }
+      .pricing-header .header-navigation .header-info__vertical {
+        font-size: 26px;
+        color: #597e7f;
+        margin-right: 25px; }
+      .pricing-header .header-navigation .header-info .header-contact__tel {
+        text-decoration: none;
+        color: #83a7a5;
+        font-size: 13px; }
+        .pricing-header .header-navigation .header-info .header-contact__tel .header-contact__span {
+          font-family: 'Montserrat Regular'; }
+        .pricing-header .header-navigation .header-info .header-contact__tel .header-contact__tel-icon {
+          color: #83a7a5; }
+    .pricing-header .header-navigation .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .pricing-header .header-navigation .nav__link {
+        font-family: 'Montserrat Regular';
+        text-transform: uppercase;
+        font-size: 13px;
+        text-decoration: none;
+        color: #83a7a5;
+        margin-right: 30px;
+        transition: color 0.2s linear; }
+        .pricing-header .header-navigation .nav__link:hover {
+          color: #567270; }
+      .pricing-header .header-navigation .nav .nav__link:last-child {
+        margin-right: 0; }
+      .pricing-header .header-navigation .nav .nav__btn {
+        width: 110px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        display: inline-block;
+        background-color: #6fb048;
+        color: #ffffff;
+        border-radius: 2px;
+        transition: background-color 0.2s linear; }
+        .pricing-header .header-navigation .nav .nav__btn:hover {
+          background-color: #5a9338; }
+  .pricing-header .header__hr {
+    background-color: #b8ccc8;
+    height: 1px;
+    border: none; }
+  .pricing-header .pricing-header-intro {
+    padding: 60px 0 65px; }
+    .pricing-header .pricing-header-intro .section-header {
+      margin: auto;
+      text-align: center; }
+      .pricing-header .pricing-header-intro .section-header__title {
+        font-family: 'Roboto Light';
+        font-size: 32px;
+        line-height: 32px;
+        color: #0f5f5c; }
+      .pricing-header .pricing-header-intro .section-header__text {
+        margin-top: 20px;
+        font-family: 'Roboto Regular';
+        font-size: 15px;
+        line-height: 15px;
+        color: #83a7a5; }
+    .pricing-header .pricing-header-intro .prices-body {
+      margin-top: 40px; }
+      .pricing-header .pricing-header-intro .prices-body .prices {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px; }
+        .pricing-header .pricing-header-intro .prices-body .prices .pricing-block {
+          text-align: center;
+          border: 1px #c1d3d2 solid;
+          height: 358px;
+          width: 253px;
+          background-color: #ffffff; }
+          .pricing-header .pricing-header-intro .prices-body .prices .pricing-block__title {
+            margin: 25px 0 10px;
+            font-family: 'Roboto Medium';
+            text-transform: uppercase;
+            font-size: 15px;
+            color: #6fb048; }
+          .pricing-header .pricing-header-intro .prices-body .prices .pricing-block__price {
+            margin-bottom: 15px; }
+            .pricing-header .pricing-header-intro .prices-body .prices .pricing-block__price .pricing-block__value {
+              font-family: 'Montserrat Regular';
+              color: #0f5f5c;
+              font-size: 65px;
+              line-height: 65px;
+              font-weight: 900; }
+            .pricing-header .pricing-header-intro .prices-body .prices .pricing-block__price .pricing-block__month {
+              font-family: 'Roboto Regular';
+              font-size: 14px;
+              color: #0f5f5c;
+              font-weight: 700; }
+          .pricing-header .pricing-header-intro .prices-body .prices .pricing-block__text {
+            font-family: 'Roboto Regular';
+            font-size: 14px;
+            line-height: 28px;
+            color: #597e7f; }
+          .pricing-header .pricing-header-intro .prices-body .prices .pricing-block__btn {
+            display: inline-block;
+            text-decoration: none;
+            margin-top: 25px;
+            width: 140px;
+            height: 42px;
+            background-color: #83a7a5;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-family: 'Montserrat Regular';
+            font-size: 13px;
+            line-height: 42px;
+            border-radius: 2px;
+            transition: background-color 0.2s linear; }
+            .pricing-header .pricing-header-intro .prices-body .prices .pricing-block__btn:hover {
+              background-color: #6fb048; }
+        .pricing-header .pricing-header-intro .prices-body .prices .pricing-block-2 {
+          border-right: none;
+          border-left: none; }
+    .pricing-header .pricing-header-intro .pricing-offer {
+      text-align: center;
+      margin-top: 30px;
+      font-family: 'Roboto Regular';
+      color: #83a7a5;
+      font-size: 14px;
+      line-height: 14px; }
+
+/* Plans */
+.plans-content {
+  padding-top: 80px; }
+  .plans-content .section-header {
+    margin: auto;
+    text-align: center; }
+    .plans-content .section-header__title {
+      font-family: 'Roboto Light';
+      font-size: 32px;
+      line-height: 32px;
+      color: #0f5f5c; }
+    .plans-content .section-header__hr {
+      margin: 20px auto 0;
+      border: none;
+      width: 65px;
+      height: 1px;
+      background-color: #6fb048; }
+  .plans-content .plans-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px; }
+    .plans-content .plans-body .plan-info {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      height: 26px; }
+      .plans-content .plans-body .plan-info__img {
+        margin-right: 10px; }
+      .plans-content .plans-body .plan-info__text {
+        font-family: 'Roboto Regular';
+        font-size: 14px;
+        color: #597e7f; }
+
+/* Support */
+.support-content {
+  padding: 55px 0 95px; }
+  .support-content .section-header {
+    margin: auto;
+    text-align: center; }
+    .support-content .section-header__img {
+      margin-bottom: 5px; }
+    .support-content .section-header__title {
+      font-family: 'Roboto Light';
+      font-size: 32px;
+      line-height: 32px;
+      color: #0f5f5c; }
+    .support-content .section-header__title--green {
+      color: #6fb048; }
+    .support-content .section-header__hr {
+      margin: 20px auto 0;
+      border: none;
+      width: 65px;
+      height: 1px;
+      background-color: #6fb048; }
+    .support-content .section-header__text {
+      margin-top: 20px;
+      font-family: 'Roboto Regular';
+      font-size: 15px;
+      line-height: 15px;
+      color: #83a7a5; }
+  .support-content .support-email {
+    text-align: center;
+    margin-top: 37px; }
+    .support-content .support-email__link {
+      text-decoration: none;
+      color: #0f5f5c;
+      font-family: 'Roboto Regular';
+      font-size: 18px; }
+
+/* Download */
+.download--grey {
+  background: url(../images/home/download/download-background.jpg) center no-repeat;
+  background-size: cover; }
+
+.download-content {
+  padding: 75px 0 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .download-content .cta__title {
+    font-family: 'Roboto Light';
+    color: #0f5f5c;
+    font-size: 28px;
+    line-height: 28px; }
+  .download-content .cta__text {
+    margin-top: 6px;
+    font-family: 'Roboto Regular';
+    color: #83a7a5;
+    font-size: 15px;
+    line-height: 15px; }
+  .download-content .download-btn {
+    display: inline-block;
+    width: 285px;
+    height: 42px;
+    text-align: center;
+    background-color: #6fb048;
+    text-decoration: none;
+    font-family: 'Montserrat Regular';
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 42px;
+    border-radius: 2px;
+    transition: background-color 0.2s linear; }
+    .download-content .download-btn:hover {
+      background-color: #58a728; }
+
+/* Footer */
+.footer-content {
+  padding-top: 100px;
+  /* Copyright */ }
+  .footer-content .footer-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .footer-content .footer-info .footer-contact {
+      width: 17.5%; }
+      .footer-content .footer-info .footer-contact__title {
+        font-family: 'Proxima Nova Bold';
+        color: #0f5f5c;
+        font-size: 22px;
+        line-height: 22px;
+        margin-bottom: 10px; }
+      .footer-content .footer-info .footer-contact__email {
+        text-decoration: none;
+        font-family: 'Roboto Regular';
+        font-size: 13px;
+        color: #8daeac;
+        line-height: 28px; }
+        .footer-content .footer-info .footer-contact__email .email-span {
+          color: #0f5f5c; }
+      .footer-content .footer-info .footer-contact__phone {
+        text-decoration: none;
+        font-family: 'Roboto Regular';
+        font-size: 13px;
+        color: #8daeac;
+        line-height: 28px; }
+      .footer-content .footer-info .footer-contact__address {
+        text-decoration: none;
+        font-family: 'Roboto Regular';
+        font-size: 13px;
+        color: #8daeac;
+        line-height: 28px; }
+    .footer-content .footer-info .footer-company {
+      width: 6.6%; }
+      .footer-content .footer-info .footer-company__title {
+        font-family: 'Roboto Medium';
+        margin-bottom: 15px;
+        font-size: 13px;
+        line-height: 13px;
+        color: #0f5f5c; }
+      .footer-content .footer-info .footer-company__text {
+        font-family: 'Roboto Regular';
+        font-size: 13px;
+        line-height: 13px;
+        color: #83a7a5;
+        line-height: 28px; }
+    .footer-content .footer-info .footer-others {
+      width: 8.5%; }
+      .footer-content .footer-info .footer-others__title {
+        font-family: 'Roboto Medium';
+        margin-bottom: 15px;
+        font-size: 13px;
+        line-height: 13px;
+        color: #0f5f5c; }
+      .footer-content .footer-info .footer-others__text {
+        font-family: "Roboto Regular";
+        font-size: 13px;
+        color: #83a7a5;
+        line-height: 28px; }
+    .footer-content .footer-info .footer-newsletter {
+      width: 23%; }
+      .footer-content .footer-info .footer-newsletter__title {
+        font-family: 'Roboto Medium';
+        font-size: 13px;
+        color: #0f5f5c;
+        margin-bottom: 20px; }
+      .footer-content .footer-info .footer-newsletter__text {
+        font-family: 'Roboto Regular';
+        font-size: 13px;
+        color: #83a7a5;
+        line-height: 18px; }
+      .footer-content .footer-info .footer-newsletter .newsletter-form {
+        display: flex;
+        align-items: center;
+        margin-top: 17px; }
+        .footer-content .footer-info .footer-newsletter .newsletter-form__email {
+          padding-left: 16px;
+          height: 36px;
+          width: 240px;
+          max-width: 100%;
+          border-radius: 5px;
+          border: none;
+          outline: none;
+          background-color: #eef1ec;
+          font-family: 'Roboto Regular';
+          color: #0f5f5c;
+          font-size: 13px; }
+        .footer-content .footer-info .footer-newsletter .newsletter-form ::-webkit-input-placeholder {
+          color: #0f5f5c; }
+        .footer-content .footer-info .footer-newsletter .newsletter-form ::-moz-placeholder {
+          color: #0f5f5c; }
+        .footer-content .footer-info .footer-newsletter .newsletter-form :-moz-placeholder {
+          color: #0f5f5c; }
+        .footer-content .footer-info .footer-newsletter .newsletter-form :-ms-input-placeholder {
+          color: #0f5f5c; }
+        .footer-content .footer-info .footer-newsletter .newsletter-form :focus::-webkit-input-placeholder {
+          color: transparent; }
+        .footer-content .footer-info .footer-newsletter .newsletter-form :focus::-moz-placeholder {
+          color: transparent; }
+        .footer-content .footer-info .footer-newsletter .newsletter-form :focus:-moz-placeholder {
+          color: transparent; }
+        .footer-content .footer-info .footer-newsletter .newsletter-form :focus:-ms-input-placeholder {
+          color: transparent; }
+        .footer-content .footer-info .footer-newsletter .newsletter-form__submit {
+          margin-left: -33px;
+          height: 18px;
+          width: 18px;
+          background: url("../images/home/footer/submit-icon.png") center no-repeat;
+          background-size: cover;
+          border: none;
+          outline: none;
+          color: transparent; }
+          .footer-content .footer-info .footer-newsletter .newsletter-form__submit:hover {
+            cursor: pointer; }
+  .footer-content .footer__hr {
+    margin-top: 50px;
+    border: none;
+    height: 1px;
+    background-color: #eef1ec; }
+  .footer-content .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 0 16px; }
+    .footer-content .copyright__text {
+      font-family: 'Roboto Regular';
+      color: #83a7a5;
+      font-size: 12px;
+      line-height: 12px; }
+    .footer-content .copyright .copyright-social {
+      display: flex; }
+      .footer-content .copyright .copyright-social__link {
+        text-decoration: none;
+        margin-left: 10px; }
 
 /*# sourceMappingURL=pricing.css.map */
