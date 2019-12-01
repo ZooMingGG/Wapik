@@ -85,6 +85,36 @@ hr {
     height: 400px;
     border: none; }
 
+/* Contact Us */
+.contact-us {
+  padding: 80px 0 100px; }
+  .contact-us .section-header {
+    margin: auto;
+    text-align: center; }
+    .contact-us .section-header__title {
+      font-family: 'Roboto Light';
+      font-size: 32px;
+      line-height: 32px;
+      color: #0f5f5c; }
+    .contact-us .section-header__hr {
+      margin: 20px auto 0;
+      border: none;
+      width: 65px;
+      height: 1px;
+      background-color: #6fb048; }
+    .contact-us .section-header__text {
+      margin-top: 20px;
+      font-family: 'Roboto Regular';
+      font-size: 15px;
+      line-height: 15px;
+      color: #83a7a5; }
+  .contact-us .contact-us-body {
+    width: 100%;
+    max-width: 920px;
+    margin: 80px auto 0;
+    display: flex;
+    justify-content: space-between; }
+
 /* Download */
 .download--grey {
   background: url(../images/home/download/download-background.jpg) center no-repeat;
