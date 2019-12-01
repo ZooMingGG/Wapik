@@ -155,12 +155,76 @@ hr {
         margin: 80px auto 0;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+
+        .contact-us-form {
+            max-width: 100%;
+            ::-webkit-input-placeholder {color:#0f5f5c;}
+            ::-moz-placeholder          {color:#0f5f5c;}
+            :-moz-placeholder           {color:#0f5f5c;}
+            :-ms-input-placeholder      {color:#0f5f5c;}
+                
+            :focus::-webkit-input-placeholder {color: transparent}
+            :focus::-moz-placeholder          {color: transparent}
+            :focus:-moz-placeholder           {color: transparent}
+            :focus:-ms-input-placeholder      {color: transparent}
+
+            &__input {
+                display: block;
+                width: 510px;
+                max-width: 100%;
+                margin-bottom: 25px;
+                border: 1px solid #c1d3d2;
+                outline: none;
+                padding-left: 20px;
+            }
+
+            &__name {
+                height: 45px;
+            }
+
+            &__email {
+                height: 45px;
+            }
+
+            &__phone {
+                height: 45px;
+            }
+
+            &__message {
+                font-family: 'Roboto Regular';
+                padding-top: 10px;
+                height: 120px;
+                resize: none;
+            }
+
+            &__submit {
+                display: inline-block;
+                text-align: center;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #ffffff;
+                background-color: #6fb048;
+                width: 190px;
+                height: 40px;
+                line-height: 40px;
+                font-family: 'Montserrat Regular';
+                font-size: 13px;
+                border-radius: 3px;
+                transition: background-color 0.2s linear;
+
+                &:hover {
+                    background-color: #639e3f;
+                }
+            }
+        }
 
         .contact-us-info {
-           
+            display: block;
             border: 2px #c1d3d2 dashed;
             padding: 35px 130px 55px 40px;
-            max-width: 40%;
+            max-width: 45%;
+            max-height: 275px;
 
             .contact-us-info__title {
                 display: block;
