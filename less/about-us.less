@@ -510,3 +510,201 @@ hr {
         }
     }
 }
+
+/* Media */
+@media (max-width: 990px) {
+/* Header */
+    .header {
+
+        .header-navigation {
+
+            .header-info {
+
+                &__logo {
+                    margin-right: 20px;
+                }
+
+                &__vertical {
+                    margin-right: 15px;
+                }
+            }
+
+            .nav {
+                
+                &__link {
+                    margin-right: 18px;
+                }
+            }
+        } 
+    }
+
+/* Team */
+    .team {
+        
+        .team-body {
+            justify-content: space-around;
+
+            .teammait {
+                width: 40%;
+                margin-bottom: 40px;
+            }
+        }
+
+    }
+
+/* Download */
+    .download-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 50px 0;
+
+        .cta {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 30px;
+
+            &__title {
+                font-size: 24px;
+            }
+            
+            &__text {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media (max-width: 770px) {
+/* Header */
+    .header {
+
+        .header-navigation {
+            justify-content: space-between;
+
+            .nav {
+                display: none;
+            }
+        } 
+    }
+
+/* Team */
+    .team {
+        padding: 50px 0 30px;
+
+        .team-body {
+            justify-content: center;
+            margin: 55px auto 0;
+            
+            .teammait {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 40px;
+
+                &__photo {
+                    margin: 0 auto;
+                }
+            }    
+        }
+
+    }
+
+/* Footer */
+    .footer-content {
+        padding-top: 50px;
+
+        .footer-info {
+            justify-content: space-around;
+            text-align: center;
+
+            .footer-company {
+                width: 40%;
+                margin-bottom: 20px;
+            }
+    
+            .footer-contact {
+                width: 40%;
+                margin-bottom: 20px;
+            }
+    
+            .footer-others {
+                width: 40%;
+                margin-bottom: 20px;
+            }
+    
+            .footer-newsletter {
+                width: 40%;
+
+                .newsletter-form {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+/* Header */
+    .header {
+
+        .header-intro__title {
+            font-size: 28px;
+        }
+    }
+
+/* About */
+    .about-us-content {
+        padding-top: 40px;
+
+        .about-us-body{
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 0;
+            padding: 50px 0 70px;
+
+            .our-feature {
+                width: 100%;
+                max-width: 300px;
+                margin-top: 25px;
+            }
+        }
+    }
+
+/* Footer */
+    .footer-content {
+        padding-top: 35px;
+
+        .footer__hr {
+            margin-top: 30px;
+        }
+
+        .footer-info {
+
+            .footer-company {
+                width: 100%;
+            }
+
+            .footer-contact {
+                width: 100%;
+            }
+
+            .footer-others {
+                width: 100%;
+            }
+
+            .footer-newsletter {
+                width: 100%;
+            }
+        }
+
+        .copyright {
+            text-align: center;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            &__text {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
