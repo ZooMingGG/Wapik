@@ -639,6 +639,20 @@ hr {
     justify-content: space-between; }
     .header .header-navigation .nav {
       display: none; }
+  /* Review */
+  .review {
+    padding: 50px 0; }
+    .review .review-content {
+      flex-wrap: wrap;
+      justify-content: center; }
+      .review .review-content .review-info {
+        width: 100%;
+        text-align: center; }
+        .review .review-content .review-info .review-info__text {
+          font-size: 17px; }
+      .review .review-content .review-photo {
+        margin-top: 40px;
+        max-width: 80%; }
   /* About */
   .about {
     padding: 80px 0 80px; }
