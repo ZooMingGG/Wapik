@@ -671,6 +671,21 @@ hr {
     text-align: center; }
     .header .header-intro .header-intro__title {
       font-size: 32px; }
+  /* Features */
+  .features-content .our-first-features {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0; }
+    .features-content .our-first-features .our-feature {
+      width: 100%;
+      max-width: 300px;
+      margin-top: 25px; }
+  .features-content .parallel-hr {
+    display: none; }
+  .features-content .our-second-features .feature .feature__title .feature__text {
+    font-size: 12px; }
+  .features-content .our-second-features .feature .feature__text {
+    font-size: 12px; }
   /* Footer */
   .footer-content {
     padding-top: 35px; }
