@@ -561,3 +561,140 @@ hr {
         }
     }
 }
+
+/* Media */
+@media (max-width: 990px) {
+/* Header */
+    .pricing-header {
+
+        .header-navigation {
+
+            .header-info {
+
+                &__logo {
+                    margin-right: 20px;
+                }
+
+                &__vertical {
+                    margin-right: 15px;
+                }
+            }
+
+            .nav {
+                
+                &__link {
+                    margin-right: 18px;
+                }
+            }
+        } 
+    }
+
+/* Download */
+    .download-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 50px 0;
+
+        .cta {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 30px;
+
+            &__title {
+                font-size: 24px;
+            }
+            
+            &__text {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media (max-width: 770px) {
+/* Header */
+    .pricing-header {
+
+        .header-navigation {
+            justify-content: space-between;
+
+            .nav {
+                display: none;
+            }
+        } 
+    }
+
+/* Footer */
+    .footer-content {
+        padding-top: 50px;
+
+        .footer-info {
+            justify-content: space-around;
+            text-align: center;
+
+            .footer-company {
+                width: 40%;
+                margin-bottom: 20px;
+            }
+    
+            .footer-contact {
+                width: 40%;
+                margin-bottom: 20px;
+            }
+    
+            .footer-others {
+                width: 40%;
+                margin-bottom: 20px;
+            }
+    
+            .footer-newsletter {
+                width: 40%;
+
+                .newsletter-form {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+/* Footer */
+    .footer-content {
+        padding-top: 35px;
+
+        .footer__hr {
+            margin-top: 30px;
+        }
+
+        .footer-info {
+
+            .footer-company {
+                width: 100%;
+            }
+
+            .footer-contact {
+                width: 100%;
+            }
+
+            .footer-others {
+                width: 100%;
+            }
+
+            .footer-newsletter {
+                width: 100%;
+            }
+        }
+
+        .copyright {
+            text-align: center;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            &__text {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
