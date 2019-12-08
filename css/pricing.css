@@ -459,6 +459,21 @@ hr {
           display: block; } }
 
 @media (max-width: 575px) {
+  /* Pricing */
+  .pricing-header .pricing-header-intro .section-header__title {
+    font-size: 21px; }
+  .pricing-header .pricing-header-intro .prices-body .prices {
+    flex-wrap: wrap; }
+    .pricing-header .pricing-header-intro .prices-body .prices .pricing-block {
+      margin: 0 15px 20px; }
+    .pricing-header .pricing-header-intro .prices-body .prices .pricing-block-1 {
+      border: 1px #c1d3d2 solid; }
+    .pricing-header .pricing-header-intro .prices-body .prices .pricing-block-2 {
+      border: 1px #c1d3d2 solid; }
+    .pricing-header .pricing-header-intro .prices-body .prices .pricing-block-3 {
+      border: 1px #c1d3d2 solid; }
+  .pricing-header .pricing-header-intro .pricing-offer {
+    font-size: 12px; }
   /* Plans */
   .plans-content {
     padding-top: 55px; }
