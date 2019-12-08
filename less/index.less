@@ -860,18 +860,18 @@ hr {
 
             .header-info {
 
-                .header-info__logo {
+                &__logo {
                     margin-right: 20px;
                 }
 
-                .header-info__vertical {
+                &__vertical {
                     margin-right: 15px;
                 }
             }
 
             .nav {
                 
-                .nav__link {
+                &__link {
                     margin-right: 18px;
                 }
             }
@@ -889,11 +889,11 @@ hr {
             text-align: center;
             margin-bottom: 30px;
 
-            .cta__title {
+            &__title {
                 font-size: 24px;
             }
             
-            .cta__text {
+            &__text {
                 font-size: 13px;
             }
         }
@@ -913,6 +913,23 @@ hr {
         } 
     }
 
+/* Perfect template */
+    .perfect-template {
+
+        .perfect-template-body {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .perfect-template-info {
+                width: 80%;
+            }
+
+            .perfect-template__image {
+                display: none;
+            }
+        }
+    }
+
 /* Review */
     .review {
         padding: 50px 0;
@@ -925,7 +942,7 @@ hr {
                 width: 100%;
                 text-align: center;
                 
-                .review-info__text {
+                &__text {
                     font-size: 17px;
                 }
             }
@@ -988,7 +1005,7 @@ hr {
         .header-intro {
             text-align: center;
 
-            .header-intro__title {
+            &__title {
                 font-size: 32px;
             }
         }
@@ -1017,7 +1034,7 @@ hr {
 
             .feature {
 
-                .feature__title {
+                &__title {
 
                     .feature__text {
 
@@ -1025,17 +1042,43 @@ hr {
                     }
                 }
 
-                .feature__text {
+                &__text {
                     font-size: 12px;
                 }
             }
         }
     }
 
+/* Perfect template */
+    .perfect-template {
+        padding-top: 38px;
+
+        .section-header__title {
+            font-size: 26px;
+        }
+
+        .perfect-template-body {
+
+            .perfect-template-info {
+                text-align: center;
+                width: 100%;
+
+                &__text {
+                    font-size: 12px;
+                }
+
+                .perfect-template-include__text {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    
+
 /* Plans */
     .pricing-content {
         padding-top: 50px;
-        
+
         .prices-body {
 
             .prices {
@@ -1063,6 +1106,7 @@ hr {
 /* Plans */
     .plans-content {
         padding-top: 55px;
+
         .plans-body {
             flex-wrap: wrap;
             justify-content: center;
@@ -1105,7 +1149,7 @@ hr {
             flex-wrap: wrap;
             justify-content: center;
 
-            .copyright__text {
+            &__text {
                 width: 100%;
                 margin-bottom: 20px;
             }
