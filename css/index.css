@@ -701,6 +701,19 @@ hr {
   .features-content .our-second-features .feature .feature__text {
     font-size: 12px; }
   /* Plans */
+  .pricing-content {
+    padding-top: 50px; }
+    .pricing-content .prices-body .prices {
+      flex-wrap: wrap; }
+      .pricing-content .prices-body .prices .pricing-block {
+        margin: 0 15px 20px; }
+      .pricing-content .prices-body .prices .pricing-block-1 {
+        border: 1px #c1d3d2 solid; }
+      .pricing-content .prices-body .prices .pricing-block-2 {
+        border: 1px #c1d3d2 solid; }
+      .pricing-content .prices-body .prices .pricing-block-3 {
+        border: 1px #c1d3d2 solid; }
+  /* Plans */
   .plans-content {
     padding-top: 55px; }
     .plans-content .plans-body {
