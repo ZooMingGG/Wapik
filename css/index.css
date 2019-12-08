@@ -660,6 +660,11 @@ hr {
           display: block; } }
 
 @media (max-width: 575px) {
+  /* Header */
+  .header .header-intro {
+    text-align: center; }
+    .header .header-intro .header-intro__title {
+      font-size: 32px; }
   /* Footer */
   .footer-content {
     padding-top: 35px; }
