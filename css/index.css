@@ -639,6 +639,12 @@ hr {
     justify-content: space-between; }
     .header .header-navigation .nav {
       display: none; }
+  /* About */
+  .about {
+    padding: 80px 0 80px; }
+    .about .about-info {
+      width: 100%;
+      text-align: center; }
   /* Footer */
   .footer-content {
     padding-top: 50px; }
