@@ -15,8 +15,9 @@ hr {
 
 .container {
   width: 100%;
-  max-width: 1055px;
-  margin: auto; }
+  max-width: 1085px;
+  margin: auto;
+  padding: 0 15px; }
 
 /* Header */
 .header {
@@ -608,5 +609,22 @@ hr {
       .footer-content .copyright .copyright-social__link {
         text-decoration: none;
         margin-left: 10px; }
+
+/* Media */
+@media (max-width: 990px) {
+  /* Header */
+  .header .header-navigation .header-info .header-info__logo {
+    margin-right: 20px; }
+  .header .header-navigation .header-info .header-info__vertical {
+    margin-right: 15px; }
+  .header .header-navigation .nav .nav__link {
+    margin-right: 18px; } }
+
+@media (max-width: 770px) {
+  /* Header */
+  .header .header-navigation {
+    justify-content: space-between; }
+    .header .header-navigation .nav {
+      display: none; } }
 
 /*# sourceMappingURL=index.css.map */

@@ -19,8 +19,9 @@ hr {
 
 .container {
     width: 100%;
-    max-width: 1055px;
+    max-width: 1085px;
     margin: auto;
+    padding: 0 15px;
 }
 
 /* Header */
@@ -848,4 +849,50 @@ hr {
             }
         }
     }
+}
+
+/* Media */
+@media (max-width: 990px) {
+/* Header */
+    .header {
+
+        .header-navigation {
+
+            .header-info {
+
+                .header-info__logo {
+                    margin-right: 20px;
+                }
+
+                .header-info__vertical {
+                    margin-right: 15px;
+                }
+            }
+
+            .nav {
+                
+                .nav__link {
+                    margin-right: 18px;
+                }
+            }
+        } 
+    }
+}
+
+@media (max-width: 770px) {
+    /* Header */
+    .header {
+
+        .header-navigation {
+            justify-content: space-between;
+
+            .nav {
+                display: none;
+            }
+        } 
+    }
+}
+
+@media (max-width: 575px) {
+    
 }
