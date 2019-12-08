@@ -618,7 +618,20 @@ hr {
   .header .header-navigation .header-info .header-info__vertical {
     margin-right: 15px; }
   .header .header-navigation .nav .nav__link {
-    margin-right: 18px; } }
+    margin-right: 18px; }
+  /* Download */
+  .download-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0; }
+    .download-content .cta {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 30px; }
+      .download-content .cta .cta__title {
+        font-size: 24px; }
+      .download-content .cta .cta__text {
+        font-size: 13px; } }
 
 @media (max-width: 770px) {
   /* Header */
