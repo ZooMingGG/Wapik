@@ -459,6 +459,16 @@ hr {
           display: block; } }
 
 @media (max-width: 575px) {
+  /* Plans */
+  .plans-content {
+    padding-top: 55px; }
+    .plans-content .section-header__title {
+      font-size: 27px; }
+    .plans-content .plans-body {
+      flex-wrap: wrap;
+      justify-content: center; }
+      .plans-content .plans-body .plan-block {
+        width: 300px; }
   /* Footer */
   .footer-content {
     padding-top: 35px; }
