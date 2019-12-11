@@ -32,7 +32,8 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* Navigation */ }
+    /* Navigation */
+    /* Toggle */ }
     .header .header-navigation .header-info {
       display: flex;
       justify-content: space-between;
@@ -84,6 +85,34 @@ hr {
         transition: opacity 0.2s linear; }
         .header .header-navigation .nav .nav__btn:hover {
           opacity: 1; }
+    .header .header-navigation .toggle {
+      display: none;
+      position: relative;
+      width: 40px;
+      height: 30px;
+      cursor: pointer; }
+      .header .header-navigation .toggle__btn, .header .header-navigation .toggle__btn:before, .header .header-navigation .toggle__btn:after {
+        display: block;
+        background-color: #ffffff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 40px;
+        height: 3px;
+        margin: -1.5px 0 0 -20px;
+        transition: transform 0.2s linear; }
+      .header .header-navigation .toggle__btn:before {
+        content: "";
+        transform: translateY(-10px); }
+      .header .header-navigation .toggle__btn:after {
+        content: "";
+        transform: translateY(10px); }
+    .header .header-navigation .toggle--active .toggle__btn {
+      height: 0; }
+    .header .header-navigation .toggle--active .toggle__btn:before {
+      transform: rotate(45deg); }
+    .header .header-navigation .toggle--active .toggle__btn:after {
+      transform: rotate(-45deg); }
   .header .header__hr {
     background-color: #51797a;
     height: 1px;
@@ -639,6 +668,8 @@ hr {
     justify-content: space-between; }
     .header .header-navigation .nav {
       display: none; }
+    .header .header-navigation .toggle {
+      display: block; }
   /* Perfect template */
   .perfect-template .perfect-template-body {
     flex-wrap: wrap;
@@ -689,6 +720,13 @@ hr {
 
 @media (max-width: 575px) {
   /* Header */
+  .header .header-navigation .header-info__logo {
+    margin-right: 12px;
+    font-size: 26px; }
+  .header .header-navigation .header-info__vertical {
+    margin-right: 10px; }
+  .header .header-navigation .header-info .header-contact__tel {
+    font-size: 11px; }
   .header .header-intro {
     text-align: center; }
     .header .header-intro__title {
