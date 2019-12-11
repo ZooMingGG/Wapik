@@ -29,7 +29,8 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* Navigation */ }
+    /* Navigation */
+    /* Toggle */ }
     .pricing-header .header-navigation .header-info {
       display: flex;
       justify-content: space-between;
@@ -80,6 +81,34 @@ hr {
         transition: background-color 0.2s linear; }
         .pricing-header .header-navigation .nav .nav__btn:hover {
           background-color: #5a9338; }
+    .pricing-header .header-navigation .toggle {
+      display: none;
+      position: relative;
+      width: 40px;
+      height: 30px;
+      cursor: pointer; }
+      .pricing-header .header-navigation .toggle__btn, .pricing-header .header-navigation .toggle__btn:before, .pricing-header .header-navigation .toggle__btn:after {
+        display: block;
+        background-color: #6fb048;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 40px;
+        height: 3px;
+        margin: -1.5px 0 0 -20px;
+        transition: transform 0.2s linear; }
+      .pricing-header .header-navigation .toggle__btn:before {
+        content: "";
+        transform: translateY(-10px); }
+      .pricing-header .header-navigation .toggle__btn:after {
+        content: "";
+        transform: translateY(10px); }
+    .pricing-header .header-navigation .toggle--active .toggle__btn {
+      height: 0; }
+    .pricing-header .header-navigation .toggle--active .toggle__btn:before {
+      transform: rotate(45deg); }
+    .pricing-header .header-navigation .toggle--active .toggle__btn:after {
+      transform: rotate(-45deg); }
   .pricing-header .header__hr {
     background-color: #b8ccc8;
     height: 1px;
@@ -438,6 +467,8 @@ hr {
     justify-content: space-between; }
     .pricing-header .header-navigation .nav {
       display: none; }
+    .pricing-header .header-navigation .toggle {
+      display: block; }
   /* Footer */
   .footer-content {
     padding-top: 50px; }
@@ -459,6 +490,14 @@ hr {
           display: block; } }
 
 @media (max-width: 575px) {
+  /* Header */
+  .header .header-navigation .header-info__logo {
+    margin-right: 12px;
+    font-size: 26px; }
+  .header .header-navigation .header-info__vertical {
+    margin-right: 10px; }
+  .header .header-navigation .header-info .header-contact__tel {
+    font-size: 11px; }
   /* Pricing */
   .pricing-header .pricing-header-intro .section-header__title {
     font-size: 21px; }
