@@ -954,7 +954,7 @@ hr {
             justify-content: space-between;
 
             .nav {
-                display: flex;
+                display: none;
                 flex-direction: column;
                 text-align: center;
                 position: absolute;
@@ -966,6 +966,10 @@ hr {
                     margin-right: 0;
                     margin-bottom: 20px;
                 }
+            }
+
+            .nav.active {
+                display: flex;
             }
 
             .toggle {
