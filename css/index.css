@@ -667,7 +667,16 @@ hr {
   .header .header-navigation {
     justify-content: space-between; }
     .header .header-navigation .nav {
-      display: none; }
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      position: absolute;
+      top: 90px;
+      left: 0;
+      width: 100%; }
+      .header .header-navigation .nav__link {
+        margin-right: 0;
+        margin-bottom: 20px; }
     .header .header-navigation .toggle {
       display: block; }
   /* Perfect template */

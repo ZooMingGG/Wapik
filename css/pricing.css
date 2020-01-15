@@ -466,7 +466,17 @@ hr {
   .pricing-header .header-navigation {
     justify-content: space-between; }
     .pricing-header .header-navigation .nav {
-      display: none; }
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      position: absolute;
+      top: 90px;
+      left: 0;
+      width: 100%;
+      background-color: #eef1ec; }
+      .pricing-header .header-navigation .nav__link {
+        margin-right: 0;
+        margin-bottom: 20px; }
     .pricing-header .header-navigation .toggle {
       display: block; }
   /* Footer */
